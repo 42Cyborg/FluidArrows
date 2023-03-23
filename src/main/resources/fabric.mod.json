@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fluidarrows",
+  "version": "${version}",
+  "name": "FluidArrows",
+  "description": "",
+  "authors": [
+    "42Cyborg"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fluidarrows/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.carpeadventum.fluidarrows.main.FluidArrows"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  },
+  "mixins": [
+    "fluidarrows.mixins.json"
+  ]
+
+}

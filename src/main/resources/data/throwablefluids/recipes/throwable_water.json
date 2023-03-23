@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "throwablefluids:splashed_gel" },
+    { "item": "minecraft:water_bucket" }
+  ],
+  "result": {
+    "item": "throwablefluids:throwable_water",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "throwablefluids:throwable_water"
+    },
+    "title": "Go With The Flow",
+    "description": "Obtained some throwable water!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "parent": "throwablefluids:throwablefluids",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "throwablefluids:throwable_water"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

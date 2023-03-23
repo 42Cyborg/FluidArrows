@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fluidarrows:bucket_arrow_throw"
+    ]
+  },
+  "criteria": {
+    "has_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:arrow"
+            ]
+          },
+          {
+            "items": [
+              "throwablefluids:throwable_water"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fluidarrows:bucket_arrow_throw"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_arrow",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fluidarrows:bucket_arrow_gel"
+    ]
+  },
+  "criteria": {
+    "has_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:arrow"
+            ]
+          },
+          {
+            "items": [
+              "throwablefluids:splashed_gel"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fluidarrows:bucket_arrow_gel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_arrow",
+      "has_the_recipe"
+    ]
+  ]
+}
